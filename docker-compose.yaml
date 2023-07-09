@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fluent-bit:
+    image: fluent/fluent-bit:2.1
+    volumes:
+      - ./log:/mnt/fluent-bit/log
+      - ./test-data:/mnt/test-data
+      - ./config:/fluent-bit/etc
+      - ./db:/mnt/fluent-bit/db
+      - ./data:/mnt/fluent-bit/data
