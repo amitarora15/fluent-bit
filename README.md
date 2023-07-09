@@ -2,7 +2,7 @@
 
 This project contains the information to run fluent bit in docker and send the data to Open search and Kafka.
 
-###Directory structure
+### Directory structure
 <ul>
 <li>config - contains all configuration for fluent bit:
     <ul>
@@ -22,13 +22,13 @@ This project contains the information to run fluent bit in docker and send the d
 <li>docker-compose.yaml - docker compose file</li>
 </ul>
 
-###Assumptions
+### Assumptions
 <ol>
 <li>Python is installed</li>
 <li>Docker is installed</li>
 </ol>
 
-###Execution
+### Execution
 <ul>
 <li>Go to Shell, navigate to project</li>
 <li>Type </li>
