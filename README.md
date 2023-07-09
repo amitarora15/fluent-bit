@@ -26,6 +26,7 @@ This project contains the information to run fluent bit in docker and send the d
 <ol>
 <li>Python is installed</li>
 <li>Docker is installed</li>
+<li>Kafka and Opensearch are running and there is connectivity between Docker and these softwares</li>    
 </ol>
 
 ### Execution
