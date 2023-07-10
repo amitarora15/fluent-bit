@@ -1,6 +1,6 @@
 # **Fluent Bit Set Up**
 
-This project contains the information to run fluent bit in docker and send the data to Open search and Kafka.
+This project contains the information to run fluent bit in docker and send the data to Elastic search, console (sysout) and Kafka.
 
 ### Directory structure
 <ul>
@@ -26,7 +26,7 @@ This project contains the information to run fluent bit in docker and send the d
 <ol>
 <li>Python is installed</li>
 <li>Docker is installed</li>
-<li>Kafka and Opensearch are running and there is connectivity between Docker and these softwares</li>    
+<li>Kafka and Elastic search are running and there is connectivity between Docker and these softwares</li>    
 </ol>
 
 ### Execution
@@ -43,7 +43,7 @@ docker compose up
 ```editorconfig
 python3 my_log_generator.py 
 ```
-<li>Logs are getting generated and getting monitored and parsed by fluent-bit and passed to console or other downstream system like Kafka or Open search</li>
+<li>Logs are getting generated and getting monitored and parsed by fluent-bit and passed to console or other downstream system like Kafka or Elastic search</li>
 <li>Sample logs generated:</li>
 
 ```editorconfig

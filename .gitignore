@@ -1,0 +1,6 @@
+log/*.log
+test-data/*.log
+data/*
+db/*
+*.xml
+.idea/*
